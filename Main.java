@@ -3,7 +3,7 @@ public class Main {
         // Create a new bank account with an initial balance
         BankAccount account = new BankAccount("12345", 500);
 
-        // Display
+        // Display account details
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Initial Balance: " + account.getBalance());
     
